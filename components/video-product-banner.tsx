@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+import Parallax from "@/components/parallax";
 
 type VideoProductBannerProps = {
   badge?: string;
@@ -30,16 +31,22 @@ export default function VideoProductBanner({
     <section className="py-8 sm:py-12">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <div className="relative flex w-full flex-col overflow-hidden border-2 border-foreground bg-foreground ring-1 ring-primary/40 md:h-132 lg:h-144 xl:h-152">
-          {/* Video */}
-          <div className="relative aspect-video border-b border-background/10 md:absolute md:inset-0 md:aspect-auto md:border-0">
-            <video
-              className="block h-full w-full object-contain object-center md:object-cover md:opacity-90"
-              src={videoSrc}
-              autoPlay
-              muted
-              loop
-              playsInline
-            />
+          {/* Video — overscanned and counter-drifting inside the clipped frame */}
+          <div className="relative aspect-video overflow-hidden border-b border-background/10 md:absolute md:inset-0 md:aspect-auto md:border-0">
+            <Parallax
+              speed={-24}
+              className="absolute inset-0"
+              innerClassName="h-full w-full"
+            >
+              <video
+                className="block h-full w-full scale-110 object-contain object-center md:object-cover md:opacity-90"
+                src={videoSrc}
+                autoPlay
+                muted
+                loop
+                playsInline
+              />
+            </Parallax>
           </div>
 
           {/* Content */}

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowUpRight, Clock3, Mail, PhoneCall } from "lucide-react";
+import Parallax from "@/components/parallax";
 import { siteConfig } from "@/lib/seo";
 
 const sourcingSignals = [
@@ -61,12 +62,14 @@ export default function CTA() {
 
           <div className="mt-6 grid grid-cols-12 gap-x-10 gap-y-12 sm:mt-8">
             <article className="col-span-12 lg:col-span-7">
-              <h2 className="max-w-3xl font-display text-3xl uppercase leading-[0.95] tracking-tight sm:text-5xl lg:text-6xl">
-                Start sourcing premium electronics at wholesale prices.
-                <span className="mt-3 block text-2xl text-primary-foreground/50 sm:text-3xl lg:text-4xl">
-                  Built for repeat buyers, retailers, and distribution teams.
-                </span>
-              </h2>
+              <Parallax speed={16}>
+                <h2 className="max-w-3xl font-display text-3xl uppercase leading-[0.95] tracking-tight sm:text-5xl lg:text-6xl">
+                  Start sourcing premium electronics at wholesale prices.
+                  <span className="mt-3 block text-2xl text-primary-foreground/50 sm:text-3xl lg:text-4xl">
+                    Built for repeat buyers, retailers, and distribution teams.
+                  </span>
+                </h2>
+              </Parallax>
               <p className="mt-6 max-w-prose font-sans text-sm font-light leading-relaxed text-primary-foreground/80 sm:text-base">
                 Work with Mars Technology Inc to secure fast-moving inventory,
                 verified stock, and dependable cross-border fulfillment for

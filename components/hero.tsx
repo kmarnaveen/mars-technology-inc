@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+import Parallax from "@/components/parallax";
 
 export default function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -59,8 +60,9 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Video card */}
-        <div className="relative mt-10 overflow-hidden border-2 border-foreground bg-foreground ring-1 ring-primary/40 sm:mt-12">
+        {/* Video card — drifts slower than the scroll for depth */}
+        <Parallax speed={30} className="mt-10 sm:mt-12">
+        <div className="relative overflow-hidden border-2 border-foreground bg-foreground ring-1 ring-primary/40">
           <div className="relative aspect-video md:aspect-auto md:h-152 lg:h-168 xl:h-176">
             <video
               ref={videoRef}
@@ -82,6 +84,7 @@ export default function Hero() {
             </p>
           </div>
         </div>
+        </Parallax>
       </div>
     </section>
   );

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
+import Parallax from "@/components/parallax";
 import { getAllCategories, getProductsByCategory } from "@/lib/brands";
 import {
   Carousel,
@@ -75,16 +76,18 @@ export default function ProductCategories() {
                         </span>
                       </div>
 
-                      {/* Floating product image */}
+                      {/* Floating product image — light counter-drift */}
                       {imageSrc && (
                         <div className="pointer-events-none absolute inset-0 flex items-center justify-center p-6">
-                          <Image
-                            src={imageSrc}
-                            alt={category}
-                            width={220}
-                            height={220}
-                            className="max-h-40 w-auto object-contain transition-transform duration-500 group-hover:scale-105"
-                          />
+                          <Parallax speed={-12}>
+                            <Image
+                              src={imageSrc}
+                              alt={category}
+                              width={220}
+                              height={220}
+                              className="max-h-40 w-auto object-contain transition-transform duration-500 group-hover:scale-105"
+                            />
+                          </Parallax>
                         </div>
                       )}
 
