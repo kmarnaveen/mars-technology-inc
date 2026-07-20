@@ -53,7 +53,7 @@ const contactCards = [
 
 export default function CTA() {
   return (
-    <section className="bg-primary py-16 text-primary-foreground sm:py-24">
+    <section className="bg-linear-to-br from-primary via-primary to-chart-3 py-16 text-primary-foreground sm:py-24">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <div className="border-t-2 border-primary-foreground pt-8 sm:pt-10">
           <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-primary-foreground/70 sm:text-xs">

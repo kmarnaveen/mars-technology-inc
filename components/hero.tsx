@@ -7,6 +7,11 @@ import Parallax from "@/components/parallax";
 export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-background pt-8 pb-14 sm:pt-12 sm:pb-16">
+      {/* Soft radial wash behind the composition */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 bg-radial-[at_85%_0%] from-primary/6 via-transparent to-transparent"
+      />
       {/* Ghost wordmark — drifts against the scroll behind the content */}
       <div
         aria-hidden="true"
@@ -28,7 +33,10 @@ export default function Hero() {
 
         {/* Poster headline */}
         <h1 className="mt-6 max-w-6xl font-display text-4xl uppercase leading-[0.95] tracking-tight text-foreground sm:mt-8 sm:text-6xl lg:text-8xl">
-          Big brands. <span className="text-primary">Bigger margins.</span>
+          Big brands.{" "}
+          <span className="bg-linear-to-r from-primary to-warning bg-clip-text text-transparent">
+            Bigger margins.
+          </span>
         </h1>
 
         {/* Standfirst + CTAs */}
@@ -57,7 +65,12 @@ export default function Hero() {
         </div>
 
         {/* Video card — drifts slower than the scroll for depth */}
-        <Parallax speed={55} className="mt-10 sm:mt-12">
+        <Parallax speed={55} className="mt-10 sm:mt-12" innerClassName="relative">
+          {/* Gradient glow bleeding out beneath the card */}
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-x-8 -bottom-5 h-16 bg-linear-to-r from-primary/30 via-warning/25 to-primary/30 blur-2xl"
+          />
           <div className="relative overflow-hidden border-2 border-foreground bg-foreground ring-1 ring-primary/40">
             <div className="relative aspect-video md:aspect-auto md:h-152 lg:h-168 xl:h-176">
               <video

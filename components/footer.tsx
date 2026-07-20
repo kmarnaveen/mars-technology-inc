@@ -29,7 +29,12 @@ export default function Footer() {
   };
 
   return (
-    <footer className="w-full border-t-4 border-primary bg-foreground text-background">
+    <footer className="relative isolate w-full overflow-hidden border-t-4 border-primary bg-foreground text-background">
+      {/* Ember wash in the top corner */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 -z-10 bg-radial-[at_12%_0%] from-primary/20 via-transparent to-transparent"
+      />
       {/* Top — brand + direct contact */}
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <div className="flex flex-col gap-8 pb-10 pt-12 sm:pt-14 md:flex-row md:items-end md:justify-between md:gap-12">

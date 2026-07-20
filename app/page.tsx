@@ -82,7 +82,7 @@ const TICKER_PHRASES = [
 
 function Ticker() {
   return (
-    <div className="overflow-hidden border-y-2 border-foreground bg-background py-3">
+    <div className="overflow-hidden border-y-2 border-foreground bg-background py-3 mask-[linear-gradient(to_right,transparent,black_8%,black_92%,transparent)]">
       <div className="flex w-max animate-marquee font-mono text-xs uppercase tracking-[0.3em] text-foreground">
         {[0, 1].map((copy) => (
           <div
