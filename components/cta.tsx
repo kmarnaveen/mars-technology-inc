@@ -62,7 +62,7 @@ export default function CTA() {
 
           <div className="mt-6 grid grid-cols-12 gap-x-10 gap-y-12 sm:mt-8">
             <article className="col-span-12 lg:col-span-7">
-              <Parallax speed={16}>
+              <Parallax speed={30}>
                 <h2 className="max-w-3xl font-display text-3xl uppercase leading-[0.95] tracking-tight sm:text-5xl lg:text-6xl">
                   Start sourcing premium electronics at wholesale prices.
                   <span className="mt-3 block text-2xl text-primary-foreground/50 sm:text-3xl lg:text-4xl">

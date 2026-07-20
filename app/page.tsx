@@ -128,7 +128,8 @@ export default function Home() {
               </div>
               <div className="col-span-12 lg:col-span-4">
                 <p className="max-w-prose font-sans text-sm font-light leading-relaxed text-muted-foreground sm:text-base">
-                  Take a look at what&apos;s moving right now.
+                  The SKUs moving through our warehouse right now — flagship
+                  devices with proven sell-through.
                 </p>
                 <Link
                   href="/products"

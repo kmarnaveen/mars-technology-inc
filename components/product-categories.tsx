@@ -36,7 +36,8 @@ export default function ProductCategories() {
                 Our Collections
               </h2>
               <p className="mt-4 max-w-prose font-sans text-sm font-light leading-relaxed text-muted-foreground sm:text-base">
-                Showcase all of the different collections we have to offer.
+                Seven wholesale categories, one supply partner — browse the
+                lines retailers reorder most.
               </p>
             </div>
             <Link
@@ -79,7 +80,7 @@ export default function ProductCategories() {
                       {/* Floating product image — light counter-drift */}
                       {imageSrc && (
                         <div className="pointer-events-none absolute inset-0 flex items-center justify-center p-6">
-                          <Parallax speed={-12}>
+                          <Parallax speed={-28}>
                             <Image
                               src={imageSrc}
                               alt={category}

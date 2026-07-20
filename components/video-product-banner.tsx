@@ -34,12 +34,12 @@ export default function VideoProductBanner({
           {/* Video — overscanned and counter-drifting inside the clipped frame */}
           <div className="relative aspect-video overflow-hidden border-b border-background/10 md:absolute md:inset-0 md:aspect-auto md:border-0">
             <Parallax
-              speed={-24}
+              speed={-44}
               className="absolute inset-0"
               innerClassName="h-full w-full"
             >
               <video
-                className="block h-full w-full scale-110 object-contain object-center md:object-cover md:opacity-90"
+                className="block h-full w-full scale-[1.18] object-contain object-center md:object-cover md:opacity-90"
                 src={videoSrc}
                 autoPlay
                 muted
