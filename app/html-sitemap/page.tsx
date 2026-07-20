@@ -32,15 +32,15 @@ const sitemapLinks = {
 
 const featuredPosts = [
   {
-    label: "Optimizing Wholesale Pricing Strategy in 2026",
+    label: "Price Like a Distributor, Not a Spreadsheet",
     href: "/blog/wholesale-pricing-strategy",
   },
   {
-    label: "Complete Guide to Asset Liquidation for Retailers",
+    label: "Liquidation Without the Fire Sale",
     href: "/blog/asset-liquidation-guide",
   },
   {
-    label: "Building Resilient Supply Chains in Electronics Distribution",
+    label: "Never Explain an Empty Shelf Again",
     href: "/blog/supply-chain-resilience",
   },
 ];

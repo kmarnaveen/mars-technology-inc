@@ -33,11 +33,11 @@ export default function ProductCategories() {
                 01 / Collections
               </p>
               <h2 className="mt-4 font-display text-3xl uppercase leading-[0.95] tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-                Our Collections
+                What we stock.
               </h2>
               <p className="mt-4 max-w-prose font-sans text-sm font-light leading-relaxed text-muted-foreground sm:text-base">
-                Seven wholesale categories, one supply partner — browse the
-                lines retailers reorder most.
+                Seven categories, stocked deep and priced for resale — from
+                flagship handsets to the accessories that pad every basket.
               </p>
             </div>
             <Link

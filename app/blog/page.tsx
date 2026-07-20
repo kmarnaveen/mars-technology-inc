@@ -20,49 +20,49 @@ export const metadata = buildMetadata({
 const blogPosts = [
   {
     slug: "wholesale-pricing-strategy",
-    title: "Optimizing Wholesale Pricing Strategy in 2026",
+    title: "Price Like a Distributor, Not a Spreadsheet",
     excerpt:
-      "Learn how to develop competitive pricing strategies that maximize margins while staying competitive in the wholesale electronics market.",
+      "Cost-plus is how margins die quietly. How the sharpest wholesale buyers price around velocity, tier discipline, and the true cost of an empty shelf.",
     date: "January 15, 2026",
     category: "Business Strategy",
   },
   {
     slug: "asset-liquidation-guide",
-    title: "Complete Guide to Asset Liquidation for Retailers",
+    title: "Liquidation Without the Fire Sale",
     excerpt:
-      "Discover how to effectively liquidate excess inventory and transition assets. Expert tips for maximizing returns on unwanted stock.",
+      "Exiting inventory doesn't have to mean torching its value. A working guide to auditing, channeling, and timing a liquidation that ends in the black.",
     date: "January 10, 2026",
     category: "Asset Management",
   },
   {
     slug: "supply-chain-resilience",
-    title: "Building Resilient Supply Chains in Electronics Distribution",
+    title: "Never Explain an Empty Shelf Again",
     excerpt:
-      "Explore strategies for maintaining supply chain stability and managing disruptions in wholesale electronics distribution.",
+      "Resilience isn't a slide in a deck — it's a set of habits. Multiple sources, honest safety stock, and partners who answer the phone at 4pm on a Friday.",
     date: "January 5, 2026",
     category: "Supply Chain",
   },
   {
     slug: "mobile-device-trends-2026",
-    title: "Mobile Device Market Trends to Watch in 2026",
+    title: "What Moves in 2026: The Handset Report",
     excerpt:
-      "Stay ahead of the curve with insights into emerging trends in mobile device distribution and consumer electronics.",
+      "Flagships hold, mid-range eats share, certified pre-owned goes mainstream. The demand signals wholesale buyers should be stocking against this year.",
     date: "December 28, 2025",
     category: "Market Trends",
   },
   {
     slug: "bulk-ordering-best-practices",
-    title: "Best Practices for Bulk Ordering in Wholesale Electronics",
+    title: "The Bulk Order, Done Right",
     excerpt:
-      "Master the art of bulk ordering to optimize inventory management and reduce per-unit costs.",
+      "Forecast honestly, buy to the tier that pays, mix the pallet, and treat your distributor like a teammate. Four disciplines that turn volume into margin.",
     date: "December 20, 2025",
     category: "Wholesale Tips",
   },
   {
     slug: "certified-devices-importance",
-    title: "Why Certified Devices Matter in Wholesale Distribution",
+    title: "Sealed Is the Whole Story",
     excerpt:
-      "Understand the importance of certified, factory-sealed devices and how they impact your business reputation.",
+      "Factory-sealed, verified stock is the difference between a return rate you brag about and one you bury. Why certification pays for itself on every pallet.",
     date: "December 15, 2025",
     category: "Product Quality",
   },
@@ -78,10 +78,11 @@ export default function Blog() {
             Blog
           </p>
           <h1 className="mt-6 font-display text-4xl uppercase leading-[0.95] tracking-tight text-foreground sm:text-6xl lg:text-7xl">
-            Insights
+            The Wholesale Brief
           </h1>
           <p className="mt-6 max-w-xl text-sm font-light leading-relaxed text-muted-foreground sm:text-base">
-            Industry insights and wholesale distribution expertise
+            Field notes on pricing, supply, and what&apos;s actually selling —
+            written for buyers, not browsers.
           </p>
         </div>
 

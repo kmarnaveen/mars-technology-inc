@@ -20,7 +20,7 @@ export default function VideoProductBanner({
   badge = "Samsung Spotlight",
   title = "Move fast on",
   highlight = "flagship demand.",
-  description = "Highlight premium Samsung inventory with a secondary campaign section built for retailers, resellers, and distribution partners.",
+  description = "Galaxy inventory lands and leaves in the same week. Lock your allocation before it's spoken for.",
   videoSrc = "/products/Super_Steady_Video_Galaxy_S26_Ultra_Samsung_720P.mp4",
   primaryHref = "/brands/samsung",
   primaryLabel = "Explore Samsung",

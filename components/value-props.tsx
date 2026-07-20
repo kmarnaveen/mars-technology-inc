@@ -207,8 +207,8 @@ export default function ValueProps() {
                 04 / What we do
               </p>
               <h2 className="mt-4 max-w-4xl font-display text-3xl uppercase leading-[0.95] tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-                We help businesses source, verify, and move fast-selling
-                electronics in bulk.
+                Source it. Verify it. Move it.{" "}
+                <span className="text-primary">In bulk.</span>
               </h2>
             </div>
             <p className="col-span-12 max-w-prose font-sans text-sm font-light leading-relaxed text-muted-foreground sm:text-base lg:col-span-5">

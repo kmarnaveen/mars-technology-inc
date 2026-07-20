@@ -42,7 +42,7 @@ const FEATURED_PRODUCTS = [
     label: "NEW",
     name: "iPhone 17 Pro",
     statement:
-      "All-out premium inventory for retailers moving flagship demand.",
+      "The flagship your customers walk in asking for — sealed, verified, ready to retail.",
     meta: "Bulk pricing available",
     href: "/products/apple/a12",
     image:
@@ -53,7 +53,7 @@ const FEATURED_PRODUCTS = [
     label: "FLAGSHIP",
     name: "Galaxy S25 Ultra",
     statement:
-      "High-demand Android stock for stores that lead with top-tier devices.",
+      "Android's top shelf — for stores that lead with premium and restock weekly.",
     meta: "Fast-moving Samsung inventory",
     href: "/products/samsung/s11",
     image:
@@ -63,7 +63,8 @@ const FEATURED_PRODUCTS = [
   {
     label: "PREMIUM AUDIO",
     name: "AirPods Max",
-    statement: "Premium audio that raises basket value and gifting appeal.",
+    statement:
+      "The basket-builder — premium audio that lifts every ticket it touches.",
     meta: "Wholesale audio availability",
     href: "/products/apple/a26",
     image: "/products/airpods_max_stardust__l9lr6719rmaa_large.png",
@@ -122,13 +123,13 @@ export default function Home() {
                   02 / The Latest
                 </p>
                 <h2 className="mt-4 font-display text-3xl uppercase leading-[0.95] tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-                  The latest.
+                  Moving now.
                 </h2>
               </div>
               <div className="col-span-12 lg:col-span-4">
                 <p className="max-w-prose font-sans text-sm font-light leading-relaxed text-muted-foreground sm:text-base">
-                  The SKUs moving through our warehouse right now — flagship
-                  devices with proven sell-through.
+                  This week&apos;s fastest-turning SKUs — flagship hardware
+                  with proven sell-through and margin still on the table.
                 </p>
                 <Link
                   href="/products"
@@ -198,9 +199,9 @@ export default function Home() {
 
       <VideoProductBanner
         badge="Google Pixel Focus"
-        title="Bring more attention to"
-        highlight="the Pixel lineup."
-        description="Feature the latest Google Pixel range with a motion-led section built for wholesale buyers, resellers, and retail partners."
+        title="Put the Pixel"
+        highlight="front and center."
+        description="Google's lineup is pulling customers into stores. Stock the range before your competitors restock theirs."
         videoSrc="/products/Meet_the_New_Pixel_Lineup_Engineered_by_Google_For_All_You_Do_720P.mp4"
         primaryHref="/brands/google"
         primaryLabel="Explore Google"

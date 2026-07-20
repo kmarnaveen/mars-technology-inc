@@ -64,9 +64,10 @@ export default function CTA() {
             <article className="col-span-12 lg:col-span-7">
               <Parallax speed={30}>
                 <h2 className="max-w-3xl font-display text-3xl uppercase leading-[0.95] tracking-tight sm:text-5xl lg:text-6xl">
-                  Start sourcing premium electronics at wholesale prices.
+                  Your shelves are waiting. So is our warehouse.
                   <span className="mt-3 block text-2xl text-primary-foreground/50 sm:text-3xl lg:text-4xl">
-                    Built for repeat buyers, retailers, and distribution teams.
+                    Pricing in hours. Pallets in days. Built for repeat
+                    buyers.
                   </span>
                 </h2>
               </Parallax>

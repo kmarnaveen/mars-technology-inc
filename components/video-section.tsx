@@ -10,7 +10,7 @@ export default function VideoSection() {
                 05 / Exhibitions
               </p>
               <h2 className="mt-4 font-display text-3xl uppercase leading-[0.95] tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-                Mars Technology Inc at Industry Exhibitions
+                Where the industry meets us.
               </h2>
             </div>
             <p className="col-span-12 max-w-prose font-sans text-sm font-light leading-relaxed text-muted-foreground sm:text-base lg:col-span-5">

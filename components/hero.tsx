@@ -28,17 +28,16 @@ export default function Hero() {
 
         {/* Poster headline */}
         <h1 className="mt-6 max-w-6xl font-display text-4xl uppercase leading-[0.95] tracking-tight text-foreground sm:mt-8 sm:text-6xl lg:text-8xl">
-          The premium way to source{" "}
-          <span className="text-primary">wholesale electronics.</span>
+          The supply line for{" "}
+          <span className="text-primary">flagship electronics.</span>
         </h1>
 
         {/* Standfirst + CTAs */}
         <div className="mt-8 grid grid-cols-12 items-end gap-x-6 gap-y-6 sm:mt-10">
           <p className="col-span-12 max-w-prose font-sans text-sm font-light leading-relaxed text-muted-foreground sm:text-base md:col-span-7">
-            Mars Technology Inc moves flagship smartphones, tablets, audio,
-            displays, and accessories across Canada and the United States —
-            verified stock, wholesale pricing, and same-day order processing
-            for retailers, resellers, and distribution teams.
+            iPhone to Pixel, Galaxy to JBL — verified, factory-sealed stock
+            for retailers, resellers, and distributors across Canada and the
+            United States, with same-day processing on every bulk order.
           </p>
           <div className="col-span-12 flex flex-col gap-3 sm:flex-row sm:items-center md:col-span-5 md:justify-end">
             <Link
