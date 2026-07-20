@@ -31,7 +31,7 @@ export async function generateMetadata({
   const products = getProductsByCategory(actualCategory);
 
   return buildMetadata({
-    title: `Wholesale ${actualCategory}`,
+    title: `Wholesale ${actualCategory} in Canada & USA`,
     description: `Browse ${products.length} wholesale ${actualCategory.toLowerCase()} products from Mars Technology Inc, including inventory from top global brands.`,
     path: `/categories/${slug}`,
     keywords: [

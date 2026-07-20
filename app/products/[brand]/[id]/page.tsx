@@ -32,7 +32,7 @@ export async function generateMetadata({
   }
 
   return buildMetadata({
-    title: `${product.name} Wholesale Supply`,
+    title: `Buy ${product.name} Wholesale — Canada & USA`,
     description: `${product.description} SKU: ${product.sku}. Source ${brand.name} ${product.category.toLowerCase()} inventory through Mars Technology Inc's wholesale catalog.`,
     path: `/products/${brandSlug}/${id}`,
     keywords: [

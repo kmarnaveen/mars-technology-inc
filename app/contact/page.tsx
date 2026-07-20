@@ -5,12 +5,12 @@ import { ArrowUpRight } from "lucide-react";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Contact Mars Technology Inc",
+  title: "Contact Wholesale Electronics Distributor in Canada",
   description:
     "Talk to Mars Technology Inc about wholesale electronics, partnership opportunities, bulk orders, and cross-border distribution support.",
   path: "/contact",
   keywords: [
-    "contact wholesale electronics distributor",
+    "contact wholesale electronics distributor","electronics wholesaler Brampton Ontario","wholesale distributor GTA",
     "bulk order inquiry",
     "Mars Technology Inc sales",
     "electronics distribution contact",

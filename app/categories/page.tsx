@@ -7,7 +7,7 @@ import { getAllCategories, getProductsByCategory } from "@/lib/brands";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Wholesale Electronics Categories",
+  title: "Wholesale Electronics Categories in Canada & USA",
   description:
     "Browse wholesale product categories including smartphones, tablets, audio, displays, accessories, and more from Mars Technology Inc.",
   path: "/categories",

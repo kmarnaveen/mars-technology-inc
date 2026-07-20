@@ -5,7 +5,7 @@ import ProductsContent from "@/components/products-content";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Wholesale Electronics Catalog",
+  title: "Wholesale Electronics Catalog — Bulk Pricing Canada & USA",
   description:
     "Browse Mars Technology Inc's wholesale catalog of smartphones, tablets, audio devices, displays, and accessories from leading global brands.",
   path: "/products",

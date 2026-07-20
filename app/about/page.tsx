@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "About Mars Technology Inc",
+  title: "About Our Wholesale Electronics Distribution — Canada & USA",
   description:
     "Learn how Mars Technology Inc supports retailers, resellers, and distribution partners with dependable wholesale electronics distribution across North America.",
   path: "/about",

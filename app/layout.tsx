@@ -54,6 +54,44 @@ const websiteJsonLd = {
   },
 };
 
+// Regional/local schema — powers "wholesale electronics distributor near me",
+// "electronics wholesaler Brampton/Toronto/GTA" style queries.
+const localBusinessJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WholesaleStore",
+  name: siteConfig.name,
+  url: siteConfig.url,
+  image: absoluteUrl("/marstechnologyinc-logo.svg"),
+  telephone: siteConfig.phoneHref,
+  email: siteConfig.emails.sales,
+  priceRange: "$$",
+  address: {
+    "@type": "PostalAddress",
+    ...siteConfig.canadaOffice,
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 43.7557,
+    longitude: -79.7407,
+  },
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "09:00",
+      closes: "18:00",
+    },
+  ],
+  areaServed: [
+    { "@type": "Country", name: "Canada" },
+    { "@type": "Country", name: "United States" },
+    { "@type": "City", name: "Brampton" },
+    { "@type": "City", name: "Toronto" },
+    { "@type": "AdministrativeArea", name: "Greater Toronto Area" },
+    { "@type": "AdministrativeArea", name: "Ontario" },
+  ],
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
@@ -64,12 +102,16 @@ export const metadata: Metadata = {
   applicationName: siteConfig.name,
   keywords: [
     "wholesale electronics distributor",
-    "bulk smartphones",
+    "wholesale electronics distributor Canada",
+    "electronics wholesaler Toronto",
+    "wholesale electronics GTA",
+    "electronics distributor Brampton",
+    "bulk smartphones Canada",
+    "wholesale phones Ontario",
     "wholesale tablets",
     "consumer electronics distributor",
-    "electronics liquidation",
+    "electronics liquidation Canada",
     "B2B electronics supplier",
-    "Canada electronics wholesaler",
     "USA electronics distributor",
   ],
   authors: [{ name: siteConfig.name }],
@@ -137,6 +179,12 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(websiteJsonLd),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(localBusinessJsonLd),
           }}
         />
       </head>

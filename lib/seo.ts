@@ -4,7 +4,7 @@ export const siteConfig = {
   name: "Mars Technology Inc",
   url: "https://marstechnologyinc.com",
   description:
-    "Mars Technology Inc is a B2B wholesale electronics distributor supplying smartphones, tablets, audio devices, displays, accessories, and liquidation inventory across North America.",
+    "Wholesale electronics distributor based in Brampton, Ontario supplying bulk smartphones, tablets, audio, displays, accessories, and liquidation inventory to retailers across Canada and the USA.",
   phoneDisplay: "+1 647 403 4735",
   phoneHref: "+16474034735",
   emails: {

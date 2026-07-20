@@ -28,8 +28,7 @@ export default function Hero() {
 
         {/* Poster headline */}
         <h1 className="mt-6 max-w-6xl font-display text-4xl uppercase leading-[0.95] tracking-tight text-foreground sm:mt-8 sm:text-6xl lg:text-8xl">
-          Big brands. By the pallet.{" "}
-          <span className="text-primary">Bigger margins.</span>
+          Big brands. <span className="text-primary">Bigger margins.</span>
         </h1>
 
         {/* Standfirst + CTAs */}
@@ -37,8 +36,8 @@ export default function Hero() {
           <p className="col-span-12 max-w-prose font-sans text-sm font-light leading-relaxed text-muted-foreground sm:text-base md:col-span-7">
             Stock the shelves that sell: iPhone to Pixel, Galaxy to JBL —
             verified, factory-sealed inventory for retailers, resellers, and
-            distributors across North America, with same-day processing on
-            every bulk order.
+            distributors across North America, with same-day processing on every
+            bulk order.
           </p>
           <div className="col-span-12 flex flex-col gap-3 sm:flex-row sm:items-center md:col-span-5 md:justify-end">
             <Link
@@ -59,28 +58,28 @@ export default function Hero() {
 
         {/* Video card — drifts slower than the scroll for depth */}
         <Parallax speed={55} className="mt-10 sm:mt-12">
-        <div className="relative overflow-hidden border-2 border-foreground bg-foreground ring-1 ring-primary/40">
-          <div className="relative aspect-video md:aspect-auto md:h-152 lg:h-168 xl:h-176">
-            <video
-              className="block h-full w-full object-cover object-center"
-              src="/hero/4183c37d-0b3f-4c98-950f-834e7087960f.mp4"
-              autoPlay
-              muted
-              loop
-              playsInline
-            />
-          </div>
+          <div className="relative overflow-hidden border-2 border-foreground bg-foreground ring-1 ring-primary/40">
+            <div className="relative aspect-video md:aspect-auto md:h-152 lg:h-168 xl:h-176">
+              <video
+                className="block h-full w-full object-cover object-center"
+                src="/hero/4183c37d-0b3f-4c98-950f-834e7087960f.mp4"
+                autoPlay
+                muted
+                loop
+                playsInline
+              />
+            </div>
 
-          {/* Mono caption strip over media */}
-          <div className="pointer-events-none absolute inset-x-0 bottom-0 flex flex-wrap items-center justify-between gap-x-6 gap-y-1 border-t border-background/20 bg-foreground/35 px-4 py-3 backdrop-blur-sm sm:px-6">
-            <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-background sm:text-xs">
-              Now intaking — flagship smartphones, audio + more
-            </p>
-            <p className="hidden font-mono text-[10px] uppercase tracking-[0.3em] text-background/70 sm:block sm:text-xs">
-              Shipping Canada + USA
-            </p>
+            {/* Mono caption strip over media */}
+            <div className="pointer-events-none absolute inset-x-0 bottom-0 flex flex-wrap items-center justify-between gap-x-6 gap-y-1 border-t border-background/20 bg-foreground/35 px-4 py-3 backdrop-blur-sm sm:px-6">
+              <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-background sm:text-xs">
+                Now intaking — flagship smartphones, audio + more
+              </p>
+              <p className="hidden font-mono text-[10px] uppercase tracking-[0.3em] text-background/70 sm:block sm:text-xs">
+                Shipping Canada + USA
+              </p>
+            </div>
           </div>
-        </div>
         </Parallax>
       </div>
     </section>

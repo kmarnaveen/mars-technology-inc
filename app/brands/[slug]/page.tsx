@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return buildMetadata({
-    title: `Wholesale ${brand.name} Products`,
+    title: `${brand.name} Wholesale Distributor in Canada & USA`,
     description: `Browse ${brand.name} wholesale products for retailers, resellers, and distributors. ${brand.description}`,
     path: `/brands/${slug}`,
     keywords: [

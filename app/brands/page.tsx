@@ -7,7 +7,7 @@ import { brands } from "@/lib/brands";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Wholesale Electronics Brands",
+  title: "Apple, Samsung & Google Wholesale Distributor — Brands",
   description:
     "Explore Mars Technology Inc's wholesale brand portfolio including Apple, Samsung, Google, Xiaomi, Motorola, JBL, Huawei, Honor, and more.",
   path: "/brands",
