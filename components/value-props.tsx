@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import Parallax from "@/components/parallax";
 import Reveal from "@/components/reveal";
+import Stack from "@/components/stack";
 
 const pillars = [
   {
@@ -222,13 +223,12 @@ export default function ValueProps() {
             </p>
           </div>
 
-          {/* Pillar rows */}
-          <div className="mt-12 sm:mt-16">
+          {/* Pillar cards — sticky stacking deck */}
+          <Stack className="mt-12 sm:mt-16" top={104} step={18}>
             {pillars.map((pillar, index) => (
-              <Reveal key={pillar.number}>
               <article
                 key={pillar.number}
-                className="grid grid-cols-1 gap-6 border-t-2 border-foreground py-8 sm:grid-cols-12 sm:gap-x-6 sm:py-10"
+                className="grid grid-cols-1 gap-6 border-2 border-foreground bg-background p-6 sm:grid-cols-12 sm:gap-x-6 sm:p-10"
               >
                 <div className="sm:col-span-2">
                   <span
@@ -265,9 +265,8 @@ export default function ValueProps() {
                   ))}
                 </ul>
               </article>
-              </Reveal>
             ))}
-          </div>
+          </Stack>
 
           {/* Proof aside + stat table */}
           <div className="mt-12 grid gap-10 border-t-2 border-foreground pt-10 sm:mt-16 lg:grid-cols-12">
